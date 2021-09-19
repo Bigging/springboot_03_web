@@ -9,7 +9,7 @@
         <result column="sign" property="sign"/>
         <result column="problem" property="problem"/>
         <result column="state" property="state"/>
-        <result column="date" property="date"/>
+        <result column="data" property="data"/>
         <result column="web" property="web"/>
     </resultMap>
     <select id="getAll" resultMap="PECDaoMap">
